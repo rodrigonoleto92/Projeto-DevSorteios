@@ -7,14 +7,15 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
-img{
+
+img {
     margin: 156px auto;
     display: block;
 }
 
-h1{
+h1 {
     font-size: 32px;
     color: #FFFFFF;
     width: 299px;
@@ -23,20 +24,21 @@ h1{
     margin: 126px auto 29px;
     font-weight: 400;
 }
-.input1{
+
+.input1 {
     width: 342px;
     height: 74px;
-    border:none;
+    border: none;
     border-radius: 14px;
     background-color: #FFFFFF40;
     font-size: 40px;
     padding-left: 16px;
     color: white;
     margin-right: 62px;
-    
+
 }
 
-.input2{
+.input2 {
     width: 342px;
     height: 74px;
     border: none;
@@ -48,10 +50,11 @@ h1{
 
 }
 
-div{
+div {
     text-align: center;
 }
-button{
+
+button {
     display: block;
     margin: 79px auto;
     width: 342px;
@@ -63,9 +66,22 @@ button{
     font-weight: 700;
     cursor: pointer;
 }
-button:hover{
+
+h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+    width: 299px;
+    height: 20px;
+    display: block;
+    margin: 40px auto 29px;
+    font-weight: 400;
+    text-align: center;
+}
+
+button:hover {
     opacity: .8;
 }
-button:active{
+
+button:active {
     transform: scale(.96);
 }
